@@ -5,7 +5,7 @@ soma = 0
 pares = 0
 
 if n > 0:
-    while pares <= n:
+    while pares < n:
         soma += pares
         pares += 2
     print(f'O valor da soma dos pares entre 1 e {n}, é {soma}')
