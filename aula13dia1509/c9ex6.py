@@ -1,11 +1,10 @@
 # Dada uma sequência de números seguida pelo número zero, qual a soma dos números?
 
+n = int(input("Digite um número, ou 0 para sair: "))
 soma = 0
-num = int(input())
 
-while num != 0:
-    print("+", num, end=" ")
-    soma += num
-    int(input())
-print("=", soma) 
-
+while n != 0:
+    soma += n
+    n = int(input("Digite um número, ou 0 para sair: "))
+    
+print(f'A soma desses números é {soma}')
