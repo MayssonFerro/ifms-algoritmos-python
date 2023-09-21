@@ -6,8 +6,9 @@ pares = 0
 
 if n > 0:
     while pares < n:
+        print(pares, end=" ")
         soma += pares
         pares += 2
-    print(f'O valor da soma dos pares entre 1 e {n}, é {soma}')
+    print(f'O valor da soma desses números é {soma}')
 else:
     print("Isso não é um número natural")
