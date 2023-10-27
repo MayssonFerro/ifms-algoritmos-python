@@ -1,5 +1,7 @@
+# Dado o capital investido, a taxa de juros anual e a quantidade de anos de investimento, qual o montante ao final de cada ano?
+
 C = float(input("Informe o capital inicial: $"))
-i = float(input("Informe a taxa de juros anualp (por exemplo, 5% como 0.05): "))
+i = float(input("Informe a taxa de juros anual (por exemplo, 5% como 0.05): "))
 t = int(input("Informe a quantidade de anos de investimento: "))
  
 for ano in range(1, t + 1):

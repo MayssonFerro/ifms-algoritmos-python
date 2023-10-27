@@ -1,7 +1,7 @@
 i = 1
 f = 101
-cont = 1
+cont = i
 
-while cont < 101:
+while cont < f:
     print(cont)
     cont += 1
