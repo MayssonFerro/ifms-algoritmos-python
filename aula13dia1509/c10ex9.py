@@ -6,4 +6,4 @@ cont = 0
 while n != 0:
     n //= 10
     cont += 1
-print(f'Esse número tem {cont} dígitos')    
+print(f'Esse número tem {cont} dígitos')
