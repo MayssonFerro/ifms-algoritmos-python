@@ -9,4 +9,3 @@ while orig != 0:
     inv = inv * 10 + resto
     orig = orig // 10
 print(inv)
-    
